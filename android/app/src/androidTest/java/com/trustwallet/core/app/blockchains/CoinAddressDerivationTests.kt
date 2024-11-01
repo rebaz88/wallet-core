@@ -154,5 +154,6 @@ class CoinAddressDerivationTests {
         TIA -> assertEquals("celestia142j9u5eaduzd7faumygud6ruhdwme98qpwmfv7", address)
         NATIVEZETACHAIN -> assertEquals("zeta13u6g7vqgw074mgmf2ze2cadzvkz9snlwywj304", address)
         DYDX -> assertEquals("dydx142j9u5eaduzd7faumygud6ruhdwme98qeayaky", address)
+        MAYACHAIN -> assertEquals("maya1c8jd7ad9pcw4k3wkuqlkz4auv95mldr2knf5vy", address)
     }
 }
