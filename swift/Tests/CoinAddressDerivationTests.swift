@@ -400,6 +400,9 @@ class CoinAddressDerivationTests: XCTestCase {
                 case .dydx:
                     let expectedResult = "dydx142j9u5eaduzd7faumygud6ruhdwme98qeayaky"
                     assertCoinDerivation(coin, expectedResult, derivedAddress, address)
+                case .mayachain:
+                    let expectedResult = "maya1c8jd7ad9pcw4k3wkuqlkz4auv95mldr2knf5vy"
+                    assertCoinDerivation(coin, expectedResult, derivedAddress, address)
                 @unknown default:
                     fatalError()
                 }
